@@ -10,7 +10,7 @@ import {
 import './style.css'
 import UserInterfaceExperience from './views/user-interface-experience'
 import DevelopmentExcellenceHub from './views/development-excellence-hub'
-import GraphicDesin from './views/graphic-desin'
+import GraphicDesign from './views/graphic-design'
 import Home from './views/home'
 import WebsiteDesign from './views/website-design'
 import DesignFeatures from './views/design-features'
@@ -32,7 +32,7 @@ const App = () => {
           exact
           path="/development-excellence-hub"
         />
-        <Route component={GraphicDesin} exact path="/graphic-desin" />
+        <Route component={GraphicDesign} exact path="/graphic-design" />
         <Route component={Home} exact path="/" />
         <Route component={WebsiteDesign} exact path="/website-design" />
         <Route component={DesignFeatures} exact path="/design-features" />

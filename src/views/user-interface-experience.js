@@ -176,46 +176,46 @@ const UserInterfaceExperience = (props) => {
           </span>
           <div className="user-interface-experience-container06">
             <TestimonialCard12
+              name="​Sarah Smith"
+              quote="​I couldn't be happier with the UI design service provided by the previous designer. But this person understood our brand vision very well and translated it into a beautiful user interface that exceeded our expectations. Highly recommended!"
+              pictureAlt="User Interface Design"
               pictureSrc="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
               rootClassName="rootClassName2"
-              quote="​I couldn't be happier with the UI design service provided by the previous designer. But this person understood our brand vision very well and translated it into a beautiful user interface that exceeded our expectations. Highly recommended!"
-              name="​Sarah Smith"
-              pictureAlt="User Interface Design"
             ></TestimonialCard12>
             <TestimonialCard12
-              rootClassName="rootClassName"
-              pictureAlt="User Interface Design"
               name="​ John Doe"
               quote="​Work was great for our project. His UI design skills have made our app look amazing. Our users love the intuitive interface, and This person has improved our engagement and retention rates."
+              pictureAlt="User Interface Design"
+              rootClassName="rootClassName"
             ></TestimonialCard12>
             <TestimonialCard12
+              name="​Nick Jhonson"
+              quote="​From start to finish, He showed professionalism, creativity and attention to detail. His UI design solutions not only improve the usability of our products but also improve our brand image. It's a pleasure to work with such a talented team."
+              pictureAlt="UI DESIGN"
               pictureSrc="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
               rootClassName="rootClassName1"
-              quote="​From start to finish, He showed professionalism, creativity and attention to detail. His UI design solutions not only improve the usability of our products but also improve our brand image. It's a pleasure to work with such a talented team."
-              name="​Nick Jhonson"
-              pictureAlt="UI DESIGN"
             ></TestimonialCard12>
           </div>
           <div className="user-interface-experience-container07">
             <TestimonialCard12
-              pictureSrc="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
-              rootClassName="rootClassName3"
               name="​Emily Williams"
               quote="​The UI design created by Elecnovate has set us apart in a competitive market. The ability to combine aesthetics and function is unmatched. Our customers appreciate the user-friendly interface, and this is a key factor in the growth of our business."
               pictureAlt="UI Design"
+              pictureSrc="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
+              rootClassName="rootClassName3"
             ></TestimonialCard12>
             <TestimonialCard12
-              rootClassName="rootClassName4"
               name="Sarah Thompson"
-              pictureAlt="UX Design"
               quote="​Work was great for our project. His UI design skills have made our app look amazing. Our users love the intuitive interface, and This person has improved our engagement and retention rates."
+              pictureAlt="UX Design"
+              rootClassName="rootClassName4"
             ></TestimonialCard12>
             <TestimonialCard12
+              name="Ryan Garcia"
+              quote="​From start to finish, He showed professionalism, creativity and attention to detail. His UI design solutions not only improve the usability of our products but also improve our brand image. It's a pleasure to work with such a talented team."
+              pictureAlt="User Experience Design"
               pictureSrc="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
               rootClassName="rootClassName5"
-              quote="​From start to finish, He showed professionalism, creativity and attention to detail. His UI design solutions not only improve the usability of our products but also improve our brand image. It's a pleasure to work with such a talented team."
-              name="Ryan Garcia"
-              pictureAlt="User Experience Design"
             ></TestimonialCard12>
           </div>
         </div>
@@ -234,45 +234,45 @@ const UserInterfaceExperience = (props) => {
       </div>
       <div className="user-interface-experience-gallery">
         <GalleryCard14
-          rootClassName="rootClassName"
-          imageAlt="​User Research &amp; Analysis"
           title="​User Research &amp; Analysis"
+          imageAlt="​User Research &amp; Analysis"
           subtitle="Conduct in-depth research to understand user needs, behaviours and preferences to inform design decisions."
+          rootClassName="rootClassName"
         ></GalleryCard14>
         <GalleryCard14
-          imageSrc="https://images.unsplash.com/photo-1579551053957-ee77f9b970c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ2fHx3b29kc3xlbnwwfHx8fDE2MjY0NDc1ODg&amp;ixlib=rb-1.2.1&amp;w=1000"
-          rootClassName="rootClassName1"
-          imageAlt="Information Architecture"
           title="Information Architecture"
+          imageAlt="Information Architecture"
+          imageSrc="https://images.unsplash.com/photo-1579551053957-ee77f9b970c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ2fHx3b29kc3xlbnwwfHx8fDE2MjY0NDc1ODg&amp;ixlib=rb-1.2.1&amp;w=1000"
           subtitle="Organize and manage content to create intuitive navigation and effective user flow."
+          rootClassName="rootClassName1"
         ></GalleryCard14>
         <GalleryCard14
-          imageSrc="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHdvb2RzfGVufDB8fHx8MTYyNjQ0NzU3Mw&amp;ixlib=rb-1.2.1&amp;w=1000"
-          rootClassName="rootClassName2"
-          imageAlt="Wireframing &amp; Prototyping"
           title="Wireframing &amp; Prototyping"
+          imageAlt="Wireframing &amp; Prototyping"
+          imageSrc="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHdvb2RzfGVufDB8fHx8MTYyNjQ0NzU3Mw&amp;ixlib=rb-1.2.1&amp;w=1000"
           subtitle="Create low-fidelity wireframes and interactive prototypes to visualize interface layout and functionality."
+          rootClassName="rootClassName2"
         ></GalleryCard14>
         <GalleryCard14
-          imageSrc="https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxuYXR1cmV8ZW58MHx8fHwxNjI2NDQ3ODAw&amp;ixlib=rb-1.2.1&amp;w=1000"
-          rootClassName="rootClassName3"
-          imageAlt="Interaction Design"
           title="Interaction Design"
+          imageAlt="Interaction Design"
+          imageSrc="https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxuYXR1cmV8ZW58MHx8fHwxNjI2NDQ3ODAw&amp;ixlib=rb-1.2.1&amp;w=1000"
           subtitle="Design interactive elements such as buttons, menus, and animations to improve user interaction and satisfaction."
+          rootClassName="rootClassName3"
         ></GalleryCard14>
         <GalleryCard14
-          imageSrc="https://images.unsplash.com/photo-1529948723647-8b7bd77b441c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxjbGlmZnxlbnwwfHx8fDE2MjY0NDc4MjQ&amp;ixlib=rb-1.2.1&amp;w=1000"
-          rootClassName="rootClassName4"
-          imageAlt="User Interface Development"
           title="User Interface Development"
+          imageAlt="User Interface Development"
+          imageSrc="https://images.unsplash.com/photo-1529948723647-8b7bd77b441c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxjbGlmZnxlbnwwfHx8fDE2MjY0NDc4MjQ&amp;ixlib=rb-1.2.1&amp;w=1000"
           subtitle="Collaborate with developers to ensure smooth design execution, including coding and front-end development"
+          rootClassName="rootClassName4"
         ></GalleryCard14>
         <GalleryCard14
-          imageSrc="https://images.unsplash.com/photo-1553570739-330b8db8a925?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxvY2VhbnxlbnwwfHx8fDE2MjY0NDc4ODQ&amp;ixlib=rb-1.2.1&amp;w=1000"
-          rootClassName="rootClassName5"
-          subtitle="Continually refine and iterate the design based on user feedback and analytics to improve the overall user experience."
-          imageAlt="User Experience"
           title="User Experience"
+          imageAlt="User Experience"
+          imageSrc="https://images.unsplash.com/photo-1553570739-330b8db8a925?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxvY2VhbnxlbnwwfHx8fDE2MjY0NDc4ODQ&amp;ixlib=rb-1.2.1&amp;w=1000"
+          subtitle="Continually refine and iterate the design based on user feedback and analytics to improve the overall user experience."
+          rootClassName="rootClassName5"
         ></GalleryCard14>
       </div>
       <div className="user-interface-experience-gallery1">

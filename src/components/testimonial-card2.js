@@ -29,21 +29,21 @@ const TestimonialCard2 = (props) => {
 }
 
 TestimonialCard2.defaultProps = {
-  rootClassName: '',
-  quote:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.',
   profileSrc:
     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdHxlbnwwfHx8fDE2MjYzNzg5NzI&ixlib=rb-1.2.1&h=1200',
-  profileAlt: 'profile',
+  rootClassName: '',
   name: 'John Doe',
+  profileAlt: 'profile',
+  quote:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.',
 }
 
 TestimonialCard2.propTypes = {
-  rootClassName: PropTypes.string,
-  quote: PropTypes.string,
   profileSrc: PropTypes.string,
-  profileAlt: PropTypes.string,
+  rootClassName: PropTypes.string,
   name: PropTypes.string,
+  profileAlt: PropTypes.string,
+  quote: PropTypes.string,
 }
 
 export default TestimonialCard2

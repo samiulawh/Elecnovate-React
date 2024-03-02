@@ -16,8 +16,8 @@ const Home = (props) => {
         <title>Elecnovate</title>
         <meta property="og:title" content="Elecnovate" />
       </Helmet>
-      <Header></Header>
-      <div className="home-hero">
+      <Header rootClassName="header-root-class-name"></Header>
+      <div className="home-sec1">
         <h1 className="home-text">Let&apos;s maintain visual harmony!</h1>
         <span className="home-text01">
           <span>
@@ -57,132 +57,140 @@ const Home = (props) => {
             </span>
           </span>
         </span>
-        <div className="home-btn-group">
+        <div className="home-sec1-btn-group">
           <button className="home-button button">Get Started</button>
           <button className="home-button1 button">Contact us</button>
         </div>
       </div>
-      <div className="home-hero1">
+      <div className="home-hero">
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1529859503572-5b9d1e68e952?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjYxODI1OTE&amp;ixlib=rb-1.2.1&amp;w=1500"
+          src="https://images.unsplash.com/photo-1588064643233-49210b27b82e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE3fHxmcmVlbGFuY2VyfGVufDB8fHx8MTcwOTM4MDY2N3ww&amp;ixlib=rb-4.0.3&amp;w=1500"
+          loading="lazy"
           className="home-image"
         />
-        <div className="home-container1">
+        <div className="home-container01">
           <h1 className="home-text08">Who we are?</h1>
           <p className="home-text09">
             <span>
-              We are Two passionate and versatile graphic designers with a keen
-              eye for aesthetics and a commitment to delivering visually
-              compelling solutions. With a background in
+              We are passionate and versatile graphic designers with a keen eye
+              for aesthetics and a commitment to delivering visually compelling
+              solutions.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="home-text11">Graphic Design &amp; Web Design</span>
+            <br></br>
+            <span>
+              With a background in
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="home-text13">Graphic Design &amp; Web Design</span>
             <span>
               , We try our best to bring a unique blend of creativity and
-              technical proficiency to every project. Whether it&apos;s crafting
-              engaging brand identities, designing captivating marketing
-              materials, or illustrating impactful visuals, our goal is to
-              transform ideas into visually stunning realities. Explore our
-              portfolio to discover the diverse range of projects that showcase
-              my skills, dedication, and love for the art of graphic design.
+              technical proficiency to every project.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>
+              Whether it&apos;s crafting engaging brand identities, designing
+              captivating marketing materials, or illustrating impactful
+              visuals, our goal is to transform ideas into visually stunning
+              realities.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>
+              Explore our portfolio to discover the diverse range of projects
+              that showcase my skills, dedication, and love for the art of
+              graphic design.
             </span>
           </p>
         </div>
       </div>
-      <div className="home-banner">
-        <h1 className="home-text13">Our Mission?</h1>
-        <p className="home-text14">
-          Our goal is to seamlessly integrate human-centered design principles
-          with the latest digital technologies, creating seamless and
-          transformative experiences for users around the world.
-        </p>
-        <span className="home-text15">
-          <span>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-              volutpat turpis.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
+      <div className="home-our-missio-sec">
+        <div className="home-container02">
+          <h1 className="home-text19">Our Mission</h1>
+          <span className="home-text20">
+            Our goal is to seamlessly integrate human-centered design principles
+            with the latest digital technologies, creating seamless and
+            transformative experiences for users around the world.
           </span>
-          <span>
-            <span>
-              Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </span>
-        </span>
+          <button className="home-button2 button">Get Started</button>
+        </div>
+        <img
+          alt="Elecnovate Mission"
+          src="/Home/blue%203d%20modern%20freelancer%20tips%20checklist%20instagram%20post1-1500h.png"
+          loading="lazy"
+          className="home-image1"
+        />
       </div>
       <div className="home-features">
-        <h1 className="home-text22">Our services</h1>
-        <div className="home-container2">
+        <h1 className="home-text21">Our services</h1>
+        <div className="home-container03">
           <FeatureCard11
             title="Logo &amp; Branding"
             rootClassName="rootClassName"
+            imageSrc="/Home/logo%20and%20branding.svg"
           ></FeatureCard11>
           <FeatureCard11
             title="Photo Editing"
             rootClassName="rootClassName1"
+            imageSrc="/Home/photo%20editing.svg"
           ></FeatureCard11>
           <FeatureCard11
             title="Print Design"
             rootClassName="rootClassName2"
+            imageSrc="/Home/print%20design.svg"
           ></FeatureCard11>
           <FeatureCard11
             title="Marketing and Advertising"
             rootClassName="rootClassName3"
+            imageSrc="/Home/marketing%20and%20advertisment.svg"
           ></FeatureCard11>
           <FeatureCard11
             title="Print on Demand"
             rootClassName="rootClassName7"
+            imageSrc="/Home/print%20on%20demand.svg"
           ></FeatureCard11>
           <FeatureCard11
             title="UI/UX Design"
             rootClassName="rootClassName6"
+            imageSrc="/Home/user%20interface%20and%20user%20experience.svg"
           ></FeatureCard11>
           <FeatureCard11
             title="Website Design"
             rootClassName="rootClassName5"
+            imageSrc="/Home/website%20design.svg"
           ></FeatureCard11>
           <FeatureCard11
             title="Social Media Designing"
             rootClassName="rootClassName4"
+            imageSrc="/Home/social%20media%20design.svg"
           ></FeatureCard11>
         </div>
       </div>
       <div className="home-features1">
-        <h1 className="home-text23">
+        <h1 className="home-text22">
           Grow Your Business with Full-Service Graphics Designing
         </h1>
         <div className="home-separator"></div>
-        <div className="home-container3">
-          <div className="home-container4">
+        <div className="home-container04">
+          <div className="home-container05">
             <FeatureCard4
               title="Flexible work life"
               description="We operate beyond conventional hours; we work longer than normal. We know that the unexpected can happen, and we adapt accordingly."
@@ -207,22 +215,22 @@ const Home = (props) => {
           <img
             alt="image"
             src="/Home/graphics%20design%20services-500h.png"
-            className="home-image1"
+            className="home-image2"
           />
         </div>
       </div>
-      <div className="home-banner1">
-        <div className="home-container5">
-          <h1 className="home-text24">​Our Philosophy</h1>
-          <span className="home-text25">
-            <span className="home-text26">
+      <div className="home-banner">
+        <div className="home-container06">
+          <h1 className="home-text23">​Our Philosophy</h1>
+          <span className="home-text24">
+            <span className="home-text25">
               ​At the core of our philosophy lies a deep reverence for
               creativity, innovation, and human connection. We believe in the
               power of design to transcend mere functionality, enriching lives
               and sparking meaningful interactions.
             </span>
-            <br className="home-text27"></br>
-            <span className="home-text28">
+            <br className="home-text26"></br>
+            <span className="home-text27">
               ​We champion a holistic approach that marries form with function,
               aesthetics with usability, and emotion with technology. Every
               project is a canvas where we blend artistry with precision,
@@ -243,12 +251,12 @@ const Home = (props) => {
               />
             </span>
           </span>
-          <div className="home-container6"></div>
+          <div className="home-container07"></div>
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1pbmltYWxpc20lMjB5ZWxsb3d8ZW58MHx8fHwxNjI2MTg0NjU3&amp;ixlib=rb-1.2.1&amp;w=1000"
-          className="home-image2"
+          src="/Home/elecnovate%20philosophy.svg"
+          className="home-image3"
         />
       </div>
       <div className="home-gallery">
@@ -305,10 +313,10 @@ const Home = (props) => {
           rootClassName="rootClassName1"
         ></GalleryCard11>
       </div>
-      <div className="home-banner2">
-        <div className="home-container7">
-          <h1 className="home-text31">About us</h1>
-          <span className="home-text32">
+      <div className="home-banner1">
+        <div className="home-container08">
+          <h1 className="home-text30">About us</h1>
+          <span className="home-text31">
             <span>
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
@@ -332,14 +340,14 @@ const Home = (props) => {
               ante. Proin at enim purus. Mauris ut felis nisi.
             </span>
           </span>
-          <div className="home-container8">
-            <button className="home-button2 button">Subscribe</button>
+          <div className="home-container09">
+            <button className="home-button3 button">Subscribe</button>
           </div>
         </div>
         <img
           alt="image"
           src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1pbmltYWxpc20lMjB5ZWxsb3d8ZW58MHx8fHwxNjI2MTg0NjU3&amp;ixlib=rb-1.2.1&amp;w=1000"
-          className="home-image3"
+          className="home-image4"
         />
       </div>
     </div>
