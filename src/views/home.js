@@ -264,40 +264,41 @@ const Home = (props) => {
           title="Branding &amp; Strategy"
           subtitle="Graphic Design"
           rootClassName="rootClassName"
+          imageSrc="/Home/brand%20and%20strategy-1500w.png"
         ></GalleryCard1>
         <GalleryCard1
           title="User Interface &amp; Experience"
-          imageSrc="https://images.unsplash.com/photo-1579551053957-ee77f9b970c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ2fHx3b29kc3xlbnwwfHx8fDE2MjY0NDc1ODg&amp;ixlib=rb-1.2.1&amp;w=1000"
+          imageSrc="/Home/user%20interface%20and%20user%20experience1.svg"
           subtitle="Graphic Design"
           rootClassName="rootClassName1"
         ></GalleryCard1>
         <GalleryCard1
           title="Photo Editing"
-          imageSrc="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHdvb2RzfGVufDB8fHx8MTYyNjQ0NzU3Mw&amp;ixlib=rb-1.2.1&amp;w=1000"
+          imageSrc="/Home/photo%20editing1.svg"
           subtitle="Graphic Design"
           rootClassName="rootClassName2"
         ></GalleryCard1>
         <GalleryCard1
           title="Marketing &amp; Advertising"
-          imageSrc="https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxuYXR1cmV8ZW58MHx8fHwxNjI2NDQ3ODAw&amp;ixlib=rb-1.2.1&amp;w=1000"
+          imageSrc="/Home/marketing%20and%20advertisment-1500w.png"
           subtitle="Graphic Design"
           rootClassName="rootClassName3"
         ></GalleryCard1>
         <GalleryCard1
           title="Print on Demand"
-          imageSrc="https://images.unsplash.com/photo-1529948723647-8b7bd77b441c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxjbGlmZnxlbnwwfHx8fDE2MjY0NDc4MjQ&amp;ixlib=rb-1.2.1&amp;w=1000"
+          imageSrc="/Home/print%20on%20demand1.svg"
           subtitle="Graphic Design"
           rootClassName="rootClassName4"
         ></GalleryCard1>
         <GalleryCard1
           title="Print Design"
-          imageSrc="https://images.unsplash.com/photo-1553570739-330b8db8a925?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxvY2VhbnxlbnwwfHx8fDE2MjY0NDc4ODQ&amp;ixlib=rb-1.2.1&amp;w=1000"
+          imageSrc="/Home/print%20design1.svg"
           subtitle="Graphic Design"
           rootClassName="rootClassName5"
         ></GalleryCard1>
         <GalleryCard11
           title="Website Design"
-          imageSrc="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHdvb2RzfGVufDB8fHx8MTYyNjQ0NzU3Mw&amp;ixlib=rb-1.2.1&amp;w=1000"
+          imageSrc="/Home/website%20design%20(2)-1500w.png"
           subtitle="Graphic Design"
           rootClassName="rootClassName2"
         ></GalleryCard11>
@@ -305,6 +306,7 @@ const Home = (props) => {
           title="Wordpress Design"
           subtitle="Web Design"
           rootClassName="rootClassName"
+          imageSrc="."
         ></GalleryCard11>
         <GalleryCard11
           title="Social Media Design"

@@ -13,7 +13,6 @@ const GalleryCard1 = (props) => {
         className="gallery-card1-image"
       />
       <h2 className="gallery-card1-text">{props.title}</h2>
-      <span className="gallery-card1-text1">{props.subtitle}</span>
     </div>
   )
 }
