@@ -17,6 +17,7 @@ import DesignFeatures from './views/design-features'
 import OurStory from './views/our-story'
 import SocialMediaDesign from './views/social-media-design'
 import AboutUs from './views/about-us'
+import ContactUs from './views/contact-us'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
           path="/social-media-design"
         />
         <Route component={AboutUs} exact path="/about-us" />
+        <Route component={ContactUs} exact path="/contact-us" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
