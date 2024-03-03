@@ -144,43 +144,43 @@ const Home = (props) => {
         <div className="home-container03">
           <FeatureCard11
             title="Logo &amp; Branding"
-            rootClassName="rootClassName"
             imageSrc="/Home/logo%20and%20branding.svg"
+            rootClassName="rootClassName"
           ></FeatureCard11>
           <FeatureCard11
             title="Photo Editing"
-            rootClassName="rootClassName1"
             imageSrc="/Home/photo%20editing.svg"
+            rootClassName="rootClassName1"
           ></FeatureCard11>
           <FeatureCard11
             title="Print Design"
-            rootClassName="rootClassName2"
             imageSrc="/Home/print%20design.svg"
+            rootClassName="rootClassName2"
           ></FeatureCard11>
           <FeatureCard11
             title="Marketing and Advertising"
-            rootClassName="rootClassName3"
             imageSrc="/Home/marketing%20and%20advertisment.svg"
+            rootClassName="rootClassName3"
           ></FeatureCard11>
           <FeatureCard11
             title="Print on Demand"
-            rootClassName="rootClassName7"
             imageSrc="/Home/print%20on%20demand.svg"
+            rootClassName="rootClassName7"
           ></FeatureCard11>
           <FeatureCard11
             title="UI/UX Design"
-            rootClassName="rootClassName6"
             imageSrc="/Home/user%20interface%20and%20user%20experience.svg"
+            rootClassName="rootClassName6"
           ></FeatureCard11>
           <FeatureCard11
             title="Website Design"
-            rootClassName="rootClassName5"
             imageSrc="/Home/website%20design.svg"
+            rootClassName="rootClassName5"
           ></FeatureCard11>
           <FeatureCard11
             title="Social Media Designing"
-            rootClassName="rootClassName4"
             imageSrc="/Home/social%20media%20design.svg"
+            rootClassName="rootClassName4"
           ></FeatureCard11>
         </div>
       </div>
@@ -262,9 +262,9 @@ const Home = (props) => {
       <div className="home-gallery">
         <GalleryCard1
           title="Branding &amp; Strategy"
+          imageSrc="/Home/brand%20and%20strategy-1500w.png"
           subtitle="Graphic Design"
           rootClassName="rootClassName"
-          imageSrc="/Home/brand%20and%20strategy-1500w.png"
         ></GalleryCard1>
         <GalleryCard1
           title="User Interface &amp; Experience"
@@ -304,13 +304,13 @@ const Home = (props) => {
         ></GalleryCard11>
         <GalleryCard11
           title="Wordpress Design"
+          imageSrc="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHdlYnNpdGUlMjBkZXNpZ258ZW58MHx8fHwxNzA5Mzg2MDAyfDA&amp;ixlib=rb-4.0.3&amp;h=1500"
           subtitle="Web Design"
           rootClassName="rootClassName"
-          imageSrc="."
         ></GalleryCard11>
         <GalleryCard11
           title="Social Media Design"
-          imageSrc="https://images.unsplash.com/photo-1579551053957-ee77f9b970c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ2fHx3b29kc3xlbnwwfHx8fDE2MjY0NDc1ODg&amp;ixlib=rb-1.2.1&amp;w=1000"
+          imageSrc="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE0fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3MDk0NDI2NjR8MA&amp;ixlib=rb-4.0.3&amp;h=1500"
           subtitle="Graphic Design"
           rootClassName="rootClassName1"
         ></GalleryCard11>
@@ -319,36 +319,24 @@ const Home = (props) => {
         <div className="home-container08">
           <h1 className="home-text30">About us</h1>
           <span className="home-text31">
-            <span>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                volutpat turpis, ut tincidunt lectus. Mauris luctus
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-            </span>
-            <span>
-              rutrum mi ut rhoncus. Integer in dignissim tortor, id egestas
-              ante. Proin at enim purus. Mauris ut felis nisi.
-            </span>
+            At Elecnovate, we&apos;re not just a team of designers; we&apos;re a
+            collective passionate about redefining the design services
+            landscape. Our journey begins with a simple belief: every pixel,
+            every line, and every color has the potential to tell an interesting
+            story.
           </span>
           <div className="home-container09">
-            <button className="home-button3 button">Subscribe</button>
+            <button className="home-button3 button">
+              <span>
+                <span className="home-text33">Learn More</span>
+                <br></br>
+              </span>
+            </button>
           </div>
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1pbmltYWxpc20lMjB5ZWxsb3d8ZW58MHx8fHwxNjI2MTg0NjU3&amp;ixlib=rb-1.2.1&amp;w=1000"
+          src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGdyYXBoaWMlMjBkZXNpZ3xlbnwwfHx8fDE3MDk0NDQxMjN8MA&amp;ixlib=rb-4.0.3&amp;w=300"
           className="home-image4"
         />
       </div>

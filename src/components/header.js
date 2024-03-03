@@ -29,9 +29,7 @@ const Header = (props) => {
           ></NavigationLinks>
         </div>
       </div>
-      <div className="header-btn-group">
-        <button className="button">{props.button}</button>
-      </div>
+      <div className="header-btn-group"></div>
       <div data-role="BurgerMenu" className="header-burger-menu">
         <svg viewBox="0 0 1024 1024" className="header-icon">
           <path
@@ -94,7 +92,7 @@ Header.defaultProps = {
   imageAlt1: 'image',
   imageSrc1: 'https://presentation-website-assets.teleporthq.io/logos/logo.png',
   rootClassName: '',
-  imageSrc: '/Home/elecnovate-1500w.png',
+  imageSrc: '/Home/elecnovate-200h.png',
   elecnovate: 'elecnovate',
   button: 'Buy now',
 }
