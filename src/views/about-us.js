@@ -8,12 +8,28 @@ const AboutUs = (props) => {
   return (
     <div className="about-us-container">
       <Helmet>
-        <title>About-us - Elecnovate</title>
-        <meta property="og:title" content="About-us - Elecnovate" />
+        <title>
+          About-us - Elevate Your Brand with Stunning Graphic Design | Graphic
+          Design
+        </title>
+        <meta
+          name="description"
+          content="Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life."
+        />
+        <meta
+          property="og:title"
+          content="About-us -  Elevate Your Brand with Stunning Graphic Design | Graphic Design"
+        />
+        <meta
+          property="og:description"
+          content="Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨"
+        />
       </Helmet>
       <div className="about-us-sec1">
         <div className="about-us-about-us-container">
-          <h1 className="about-us-text">Keep it simple</h1>
+          <h1 className="about-us-text">
+            About us - Embrace Simplicity: Crafting Design Stories with Clarity
+          </h1>
           <p className="about-us-about-us-description">
             <span>Where creative innovation meets great design solutions.</span>
             <br></br>
@@ -73,11 +89,11 @@ const AboutUs = (props) => {
               amazing.
             </span>
           </p>
-          <button className="about-us-button button">Get Started</button>
+          <button className="about-us-button button">Contact us</button>
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2fHxncmFwaGljJTIwZGVzaWdufGVufDB8fHx8MTcwOTQ0Mjc1NXww&amp;ixlib=rb-4.0.3&amp;w=1500"
+          src="https://images.unsplash.com/3/doctype-hi-res.jpg?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDMzfHxncmFwaGljcyUyMGRlc2lnbnxlbnwwfHx8fDE3MDk0NzY0MTB8MA&amp;ixlib=rb-4.0.3&amp;w=700"
           className="about-us-image"
         />
       </div>

@@ -8,10 +8,21 @@ const DevelopmentExcellenceHub = (props) => {
   return (
     <div className="development-excellence-hub-container">
       <Helmet>
-        <title>Development-Excellence-Hub - Elecnovate</title>
+        <title>
+          Development-Excellence-Hub - Elevate Your Brand with Stunning Graphic
+          Design | Graphic Design
+        </title>
+        <meta
+          name="description"
+          content="Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life."
+        />
         <meta
           property="og:title"
-          content="Development-Excellence-Hub - Elecnovate"
+          content="Development-Excellence-Hub -  Elevate Your Brand with Stunning Graphic Design | Graphic Design"
+        />
+        <meta
+          property="og:description"
+          content="Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨"
         />
       </Helmet>
       <div className="development-excellence-hub-hero">
@@ -23,7 +34,7 @@ const DevelopmentExcellenceHub = (props) => {
             <br></br>
             <br></br>
           </h1>
-          <span>
+          <span className="development-excellence-hub-text04">
             <span>At the Core of Our Business is Development Excellence</span>
             <br></br>
             <span>Empowering Your Vision with Cutting-Edge Solutions</span>
@@ -115,7 +126,7 @@ const DevelopmentExcellenceHub = (props) => {
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxtaW5pbWFsaXNtJTIwcGxhbnR8ZW58MHx8fHwxNjI2MTgyODMw&amp;ixlib=rb-1.2.1&amp;w=1200"
+          src="https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxncmFwaGljcyUyMGRlc2lnbnxlbnwwfHx8fDE3MDk0NzYzNDR8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
           className="development-excellence-hub-image"
         />
       </div>

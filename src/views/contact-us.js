@@ -8,16 +8,30 @@ const ContactUs = (props) => {
   return (
     <div className="contact-us-container">
       <Helmet>
-        <title>Contact-us - Elecnovate</title>
-        <meta property="og:title" content="Contact-us - Elecnovate" />
+        <title>
+          Contact-us - Elevate Your Brand with Stunning Graphic Design | Graphic
+          Design
+        </title>
+        <meta
+          name="description"
+          content="Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life."
+        />
+        <meta
+          property="og:title"
+          content="Contact-us -  Elevate Your Brand with Stunning Graphic Design | Graphic Design"
+        />
+        <meta
+          property="og:description"
+          content="Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨"
+        />
       </Helmet>
-      <div className="contact-us-hero">
+      <div className="contact-us-sec1-contact-us">
         <img
           alt="image"
           src="https://images.unsplash.com/photo-1586769852044-692d6e3703f0?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fGNvbnRhY3R8ZW58MHx8fHwxNzA5NDU0NTEzfDA&amp;ixlib=rb-4.0.3&amp;w=1500"
           className="contact-us-image"
         />
-        <div className="contact-us-container1">
+        <div className="contact-us-contact-content-sec1">
           <h2 className="contact-us-text">
             Contact Us – Let&apos;s Maintain Organizational Excellence
           </h2>

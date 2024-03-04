@@ -8,8 +8,22 @@ const DesignFeatures = (props) => {
   return (
     <div className="design-features-container">
       <Helmet>
-        <title>Design-Features - Elecnovate</title>
-        <meta property="og:title" content="Design-Features - Elecnovate" />
+        <title>
+          Design-Features - Elevate Your Brand with Stunning Graphic Design |
+          Graphic Design
+        </title>
+        <meta
+          name="description"
+          content="Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life."
+        />
+        <meta
+          property="og:title"
+          content="Design-Features -  Elevate Your Brand with Stunning Graphic Design | Graphic Design"
+        />
+        <meta
+          property="og:description"
+          content="Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨"
+        />
       </Helmet>
       <div className="design-features-hero">
         <div className="design-features-container1">
@@ -91,11 +105,11 @@ const DesignFeatures = (props) => {
               />
             </span>
           </span>
-          <button className="design-features-button button">Get Started</button>
+          <button className="design-features-button button">Contact us</button>
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxtaW5pbWFsaXNtJTIwcGxhbnR8ZW58MHx8fHwxNjI2MTgyODMw&amp;ixlib=rb-1.2.1&amp;w=1200"
+          src="https://images.unsplash.com/photo-1605067063351-f81bc6041251?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDM0fHxncmFwaGljcyUyMGRlc2lnbnxlbnwwfHx8fDE3MDk0NzY0MTB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
           className="design-features-image"
         />
       </div>
