@@ -14,10 +14,9 @@ import AboutUs from './views/about-us'
 import DevelopmentExcellenceHub from './views/development-excellence-hub'
 import GraphicDesign from './views/graphic-design'
 import Home from './views/home'
-import WebsiteDesign from './views/website-design'
 import DesignFeatures from './views/design-features'
-import OurStory from './views/our-story'
 import SocialMediaDesign from './views/social-media-design'
+import OurStory from './views/our-story'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -38,14 +37,13 @@ const App = () => {
         />
         <Route component={GraphicDesign} exact path="/graphic-design" />
         <Route component={Home} exact path="/" />
-        <Route component={WebsiteDesign} exact path="/website-design" />
         <Route component={DesignFeatures} exact path="/design-features" />
-        <Route component={OurStory} exact path="/our-story" />
         <Route
           component={SocialMediaDesign}
           exact
           path="/social-media-design"
         />
+        <Route component={OurStory} exact path="/our-story" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

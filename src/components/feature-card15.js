@@ -18,17 +18,17 @@ const FeatureCard15 = (props) => {
 }
 
 FeatureCard15.defaultProps = {
+  imageAlt: 'image',
   rootClassName: '',
   title: 'Lorem ipsum',
-  imageAlt: 'image',
   imageSrc:
-    'https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&ixlib=rb-1.2.1&h=500',
+    'https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&ixlib=rb-1.2.1&w=300',
 }
 
 FeatureCard15.propTypes = {
+  imageAlt: PropTypes.string,
   rootClassName: PropTypes.string,
   title: PropTypes.string,
-  imageAlt: PropTypes.string,
   imageSrc: PropTypes.string,
 }
 

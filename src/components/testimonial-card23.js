@@ -16,7 +16,7 @@ const TestimonialCard23 = (props) => {
             className=""
           ></path>
         </svg>
-        <span className="testimonial-card23-text">{props.quote}</span>
+        <h2 className="testimonial-card23-text">{props.quote}</h2>
       </div>
       <img
         alt={props.profileAlt}
